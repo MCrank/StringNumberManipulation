@@ -14,7 +14,6 @@ namespace StringNumberManipulation
             //TODO: Validate the user input so stuff doesn't blow up
 
             List<int> usrInputList = new List<int>();
-            //int[] usrInputArray = new int[usrInput.Length];
             foreach (string value in usrInput)
             {
                 usrInputList.Add(Convert.ToInt32(value));
@@ -25,8 +24,6 @@ namespace StringNumberManipulation
             Console.WriteLine($"\nThe answer is: {multiplyResults}");
             Console.WriteLine("\nPress any to exit!");
             Console.ReadLine();
-            //var answer = MultiplyNumbers(usrInput);
-            
         }
 
         static int MultiplyNumbers(List<int>numbers)
